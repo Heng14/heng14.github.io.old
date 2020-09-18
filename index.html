@@ -10,7 +10,7 @@
 <!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> -->
 <link rel="stylesheet" href="font-awesome/css/all.css">
 <link rel="stylesheet" href="nomenu.css" type="text/css" />
-<link type="text/css" rel="stylesheet" media="screen" href="jQuery-Sakura/jquery-sakura.min.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="jQuery-Sakura/jquery-sakura.css" />
 
 <title></title>
 <!--- <title>jemdoc + new design</title> --->
@@ -203,7 +203,9 @@ Last edited  on September 18<sup>th</sup> 2020 by Henry Yu. </br>
 <div> <!-- nomenulastbit to counteract  <div id="layout">  -->
 </div> <!--- <div id="layout"> --->
 </div> <!--- <div id="main-container"> --->
-<script src="jQuery-Sakura/jquery-sakura.min.js"></script>
+
+
+
 <script>
 function openNav() {
     if (window.innerWidth <= 1200) {
@@ -223,22 +225,44 @@ function closeNav() {
         );
     }
 }
+</script>
+
+</body>
+
+</html>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="jQuery-Sakura/jquery-sakura.js"></script>
+
+<script>
     // domReady
     $(function() {
-        $('body').sakura();
+        $('body').sakura('start', {
+            blowAnimations: [
+            'fall', 'blow-soft-left', 'blow-medium-left', 'blow-soft-right', 'blow-medium-right'
+        ], 
+        className: 'sakura', // Class name to use
+        fallSpeed: 5,        // Factor for petal fall speed
+        maxSize: 20,         // Maximum petal size
+        minSize: 5,          // Minimum petal size
+        newOn: 300,          // Interval after which a new petal is added
+    });
     });
 
     // windowLoad
     $(window).load(function() {
-        $('body').sakura();
+        $('body').sakura('start', {
+            blowAnimations: [
+            'fall', 'blow-soft-left', 'blow-medium-left', 'blow-soft-right', 'blow-medium-right'
+        ], 
+        className: 'sakura', // Class name to use
+        fallSpeed: 1,        // Factor for petal fall speed
+        maxSize: 20,         // Maximum petal size
+        minSize: 5,          // Minimum petal size
+        newOn: 300,          // Interval after which a new petal is added
+    });
     });
 </script>
-
-
-</body>
-</html>
-
-
 
 
 
