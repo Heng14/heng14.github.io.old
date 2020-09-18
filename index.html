@@ -10,6 +10,8 @@
 <!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> -->
 <link rel="stylesheet" href="font-awesome/css/all.css">
 <link rel="stylesheet" href="nomenu.css" type="text/css" />
+<link type="text/css" rel="stylesheet" media="screen" href="jQuery-Sakura/jquery-sakura.min.css" />
+
 <title></title>
 <!--- <title>jemdoc + new design</title> --->
 <!-- MathJax -->
@@ -201,6 +203,7 @@ Last edited  on September 18<sup>th</sup> 2020 by Henry Yu. </br>
 <div> <!-- nomenulastbit to counteract  <div id="layout">  -->
 </div> <!--- <div id="layout"> --->
 </div> <!--- <div id="main-container"> --->
+<script src="jQuery-Sakura/jquery-sakura.min.js"></script>
 <script>
 function openNav() {
     if (window.innerWidth <= 1200) {
@@ -220,6 +223,22 @@ function closeNav() {
         );
     }
 }
+    // domReady
+    $(function() {
+        $('body').sakura();
+    });
+
+    // windowLoad
+    $(window).load(function() {
+        $('body').sakura();
+    });
 </script>
+
+
 </body>
 </html>
+
+
+
+
+
