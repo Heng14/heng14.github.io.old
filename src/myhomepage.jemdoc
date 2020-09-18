@@ -1,0 +1,141 @@
+# jemdoc: nomenu,notime, addcss{nomenu.css}
+
+#~~~
+#{}{img_left}{./images/banner2.png}{profile pic}{100%}{}{}
+#~~~
+
+~~~
+{}{img_left}{./images/heng.png}{profile pic}{200px}{}{}
+
+
+= Heng (Henry) Yu \n
+\n vision algorithm engineer, [http://www.qingtong123.com/ Tsingh Technology Co., Ltd.]\n
+{{<i class="fa fa-map-marker" aria-hidden="true"></i>}} Beijing, China
+{{<i class="fa fa-envelope" aria-hidden="true"></i>}} h_yu14@163.com
+\n
+[https://scholar.google.com/citations?user=fOCAyuIAAAAJ&hl=en {{<i class="fas fa-graduation-cap" aria-hidden="true"></i>}}]
+[https://github.com/Heng14 {{<i class="fab fa-github" aria-hidden="true"></i>}}]
+[https://www.linkedin.com/in/henry-yu-400a74134/ {{<i class="fab fa-linkedin" aria-hidden="true"></i>}}]
+[https://www.facebook.com/heng.yu.31392/ {{<i class="fab fa-facebook-square" aria-hidden="true"></i>}}]
+[https://twitter.com/home?lang=en {{<i class="fab fa-twitter-square" aria-hidden="true"></i>}}]
+[http://itomelet.com/ {{<i class="fas fa-blog" aria-hidden="true"></i>}}]
+
+~~~
+
+== Biography
+I am a vision algorithm engineer at [http://www.qingtong123.com/ Tsingh Technology Co., Ltd.] in Beijing at present. Before that, I obtained my B.S. degree at the [http://www.au.tsinghua.edu.cn/ Department of Automation, Tsinghua University] in July 2018. I am applying for a Ph.D. program. I am interested in computer vision, medical image processing, mri reconstruction, and any other AI things. Please contact me if you are interested in collaborating with me.\n
+
+I started a Chinese blog with my friends, please refer to [http://itomelet.com/ itomelet] for more details.
+
+== Academic & Work Experience
+=== Research Assistant, [https://hst.mit.edu/ Health Science and Technology, Harvard-MIT] (remotely), Jul.2018 - present
+- Topic: Fast MRI reconstruction
+- Supervisor: [https://scholar.harvard.edu/setsompop/home Professor Kawin Setsompop], [https://www.nmr.mgh.harvard.edu/~berkin/index.html Professor Berkin Bilgic]
+
+=== Vision Algorithm Engineer, [http://www.qingtong123.com/ Tsingh Technology Co., Ltd.], Jul.2018 - present
+- Topic: Machine vision
+
+=== Research Assistant, [http://med.stanford.edu/ School of Medicine, Stanford University], Jul.2019 - Dec.2019
+- Topic: Survival analysis
+- Supervisor: [http://med.stanford.edu/lilab.html Professor Ruijiang Li]
+
+=== Vision Algorithm Intern, [http://www.nebula-link.com/ Beijing Nebula Link Technology Co. Ltd.], Mar.2018 - Jun.2018
+- Topic: Vehicle detection
+
+=== Research Assistant, [https://www.ri.cmu.edu/ The Robotics Institute, Carnegie Mellon University], Jul.2017 - Sep.2017
+- Topic: Pedestrian detection on smartphones
+- Supervisor: [http://www.cs.cmu.edu/~kkitani/ Professor Kris Kitani]
+
+=== B.S., [http://www.au.tsinghua.edu.cn/ Department of Automation, Tsinghua University], Aug.2014 - Jul.2018
+- Thesis: Vision-based cargo information collection system
+- Supervisor: [http://www.au.tsinghua.edu.cn/info/1110/1583.htm Professor Jie Zhou]
+
+== Selected Publications
+Please refer to my [https://scholar.google.com/citations?user=fOCAyuIAAAAJ&hl=en google scholar] for more details.
+
+=== 2020
+~~~
+{}{img_left}{./images/pic20_01.png}{}{150px}{150px}{}
+== [https://arxiv.org/abs/1910.08728 MixModule: Mixed CNN Kernel Module for Medical Image Segmentation]
+=== *H Yu Henry*, Xue Feng, Ziwen Wang, Hao Sun
+IEEE 17th International Symposium on Biomedical Imaging (*/ISBI/*), 2020
+~~~
+
+~~~
+{}{img_left}{./images/pic20_02.png}{}{150px}{150px}{}
+== [https://europepmc.org/article/med/31913871 Development and Validation of a Deep Learning CT Signature to Predict Survival and Chemotherapy Benefit in Gastric Cancer: A Multicenter, Retrospective Study]
+=== Yuming Jiang, Cheng Jin, *Heng Yu*, Jia Wu, Chuanli Chen, Qingyu Yuan, Weicai Huang, Yanfeng Hu, Yikai Xu, Zhiwei Zhou, George A Fisher Jr, Guoxin Li, Ruijiang Li
+Annals of Surgery, 2020
+~~~
+
+=== 2019
+~~~
+{}{img_left}{./images/pic19_01.png}{}{150px}{150px}{}
+== [https://arxiv.org/abs/1910.03152 GetNet: Get Target Area for Image Pairing]
+=== *H Yu Henry*, Jiang Liu, Hao Sun, Ziwen Wang, Haotian Zhang
+International Conference on Image and Vision Computing New Zealand (*/IVCNZ/*), 2019
+~~~
+
+~~~
+{}{img_left}{./images/pic19_02.png}{}{150px}{150px}{}
+== [https://ascelibrary.org/doi/abs/10.1061/9780784482292.490 An Improved Target Detection and Traffic Parameter Calculation Method Based on YOLO with a Monocular Camera]
+=== Shan Tian, *Heng Yu*, Zi Yang, Xiao Jing, Zuo Zhang, Mengkai Shi, Yizhi Wang
+The 19th COTA International Conference of Transportation Professionals (*/CICTP/*), 2019
+~~~
+
+=== 2018
+
+~~~
+{}{img_left}{./images/pic18_01.png}{}{150px}{150px}{}
+== [https://ieeexplore.ieee.org/abstract/document/8354230/ SmartPartNet: Part-Informed Person Detection for Body-Worn Smartphones]
+=== *Heng Yu*, Eshed Ohn-Bar, Donghyun Yoo, Kris M Kitani
+2018 IEEE Winter Conference on Applications of Computer Vision (*/WACV/*), 2018
+~~~
+
+~~~
+{}{img_left}{./images/pic18_02.png}{}{150px}{150px}{}
+== [https://ieeexplore.ieee.org/abstract/document/8260863/ Left atrial appendage segmentation using fully convolutional neural networks and modified three-dimensional conditional random fields]
+=== Cheng Jin, Jianjiang Feng, Lei Wang, *Heng Yu*, Jiang Liu, Jiwen Lu, Jie Zhou
+IEEE journal of biomedical and health informatics (*/IEEE JBHI/*), 2018
+~~~
+
+~~~
+{}{img_left}{./images/pic18_03.png}{}{150px}{150px}{}
+== [https://www.sciencedirect.com/science/article/abs/pii/S0010482518300532 Left atrial appendage segmentation and quantitative assisted diagnosis of atrial fibrillation based on fusion of temporal-spatial information]
+=== Cheng Jin, Jianjiang Feng, Lei Wang, *Heng Yu*, Jiang Liu, Jiwen Lu, Jie Zhou
+Computers in biology and medicine, 2018
+~~~
+
+=== 2017
+
+~~~
+{}{img_left}{./images/pic17_01.png}{}{150px}{150px}{}
+== [https://link.springer.com/chapter/10.1007/978-3-319-75541-0_5 Detection of Substances in the Left Atrial Appendage by Spatiotemporal Motion Analysis Based on 4D-CT]
+=== Cheng Jin, *Heng Yu*, Jianjiang Feng, Lei Wang, Jiwen Lu, Jie Zhou
+International Workshop on Statistical Atlases and Computational Models of the Heart (*/MICCAI workshop/*), 2017
+~~~
+
+~~~
+{}{img_left}{./images/pic17_02.png}{}{150px}{150px}{}
+== [https://link.springer.com/chapter/10.1007/978-3-319-75541-0_4 Left Atrial Appendage Neck Modeling for Closure Surgery]
+=== Cheng Jin, *Heng Yu*, Jianjiang Feng, Lei Wang, Jiwen Lu, Jie Zhou
+International Workshop on Statistical Atlases and Computational Models of the Heart (*/MICCAI workshop/*), 2017
+~~~
+
+== Skills
+=== Programming Languages
+- python
+- C\/C\+\+
+- Matlab
+- R
+=== Operating System
+- Linux
+- MacOS
+- Windows
+=== Deep Learning Frameworks
+- PyTorch
+- Keras
+- Tensorflow
+- MXNet
+
+
